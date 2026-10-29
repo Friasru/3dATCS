@@ -1,0 +1,3 @@
+# Web server (HTTP static files + WebSocket). SUMO's own Python tools (traci, sumolib)
+# come from the system SUMO install via --system-site-packages (see setup.sh).
+aiohttp>=3.9,<4

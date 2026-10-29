@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / vendored tooling caches
+node_modules/
+
+# Generated SUMO output and run artefacts (the committed snapshot lives in results/)
+output/
+atcs_source/output/
+runs_tmp/
+*.log
+
+# Third-party reference clones (research only; keep the *.COMMIT.txt pointers)
+research/*/
+
+# Test artefacts
+tests/artifacts/
+.cache/

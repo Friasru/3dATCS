@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-10-28T21:09:18+00:00",
+  "machine": {
+    "cpu_cores": 4,
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "webgl_renderer": "ANGLE (Microsoft Corporation, D3D12 (NVIDIA GeForce RTX 5060 Laptop GPU), OpenGL ES 3.1)"
+  },
+  "config": {
+    "controllers": [
+      "queue_based"
+    ],
+    "scenario": "uneven",
+    "speed": 50,
+    "viewport": "1920x1080",
+    "gpu": true,
+    "full_hour": true,
+    "query": ""
+  },
+  "render_fps": {
+    "mean": 60.0,
+    "min": 59.99,
+    "p5": 60.0,
+    "median": 60.0,
+    "p95": 60.01,
+    "max": 60.01,
+    "n": 70
+  },
+  "vehicles_on_screen": {
+    "mean": 16.9,
+    "max": 22
+  },
+  "frame_arrival_ms": {
+    "mean": 20.0,
+    "expected": 20.0
+  },
+  "bridge_server_to_browser_ms": 0.6,
+  "worker_step_roundtrip_ms": {
+    "n": 600,
+    "avg": 2.21,
+    "max": 5.0
+  },
+  "frame_bytes": {
+    "n": 600,
+    "avg": 2628.02,
+    "max": 3459
+  },
+  "server_plus_sumo_cpu_pct_of_one_core": {
+    "mean": 2.05,
+    "min": -513.15,
+    "p5": 7.96,
+    "median": 9.96,
+    "p95": 10.96,
+    "max": 11.96,
+    "n": 70
+  },
+  "chromium_cpu_pct_of_one_core": {
+    "mean": 49.98,
+    "min": -470.39,
+    "p5": 52.8,
+    "median": 57.77,
+    "p95": 61.78,
+    "max": 64.74,
+    "n": 70
+  },
+  "server_plus_sumo_rss_mib": {
+    "mean": 88.96,
+    "min": 37.61,
+    "p5": 89.59,
+    "median": 89.71,
+    "p95": 89.71,
+    "max": 89.71,
+    "n": 70
+  },
+  "chromium_rss_mib": {
+    "mean": 1276.9,
+    "min": 1232.94,
+    "p5": 1252.24,
+    "median": 1284.59,
+    "p95": 1288.33,
+    "max": 1288.68,
+    "n": 70
+  },
+  "end": {
+    "status": "ended",
+    "last_t": 3643,
+    "last_seq": 3643,
+    "frames_received": 3644,
+    "no_frame_dropped": true
+  },
+  "browser_errors": []
+}
